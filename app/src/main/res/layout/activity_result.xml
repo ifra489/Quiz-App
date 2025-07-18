@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0C6FB"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif"
+        android:text="You scored 0 out of 5"
+        android:textColor="@color/plum"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/restartBtn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/plum"
+        android:fontFamily="sans-serif"
+        android:text="Try Again"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/plum"
+        android:text="Exit "
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
