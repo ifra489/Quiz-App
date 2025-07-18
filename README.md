@@ -4,22 +4,22 @@ This is a simple Android *Quiz App with a splash screen and a 10-second countdow
 
 🧩 Features
 
-✨ *Splash Screen* with app logo animation
-🏠 *Home Screen* with Start Quiz button
-❓  5 *Multiple Choice Questions (MCQs)*
-⏳ *10-second timer* for each question
-🚀 Auto-skip to next question if time runs out
-✅ Score screen showing your final result
-🔁 Restart quiz with *new random questions* every time
-🚪 Exit option to close the app
+-✨ *Splash Screen* with app logo animation
+-🏠 *Home Screen* with Start Quiz button
+-❓  5 *Multiple Choice Questions (MCQs)*
+-⏳ *10-second timer* for each question
+-🚀 Auto-skip to next question if time runs out
+-✅ Score screen showing your final result
+-🔁 Restart quiz with *new random questions* every time
+-🚪 Exit option to close the app
 
 🎨 Technologies Used
 
- 1.*Java* for logic & backend
- 2.*XML* for layouts and UI
- 3.*Android Studio*
- 4.CountDownTimer for timing
- 5.State management with Java variables
+ -*Java* for logic & backend
+ -*XML* for layouts and UI
+ -*Android Studio*
+ -CountDownTimer for timing
+ -State management with Java variables
 
 📸 Screenshots
 
