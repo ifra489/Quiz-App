@@ -34,6 +34,18 @@ This is a simple Android *Quiz App with a splash screen and a 10-second countdow
  
  -State management with Java variables
 
+
+
+ ## 🎬 App Demo
+
+📱 Want to see the app in action?
+
+▶️ [Click here to watch the demo] https://drive.google.com/file/d/13L9PnLFr3o1gW__pc1GYfVeG1TM-0Kvs/view?usp=drive_link     
+
+
+
+
+
 ## 📸 ***Screenshots***
 
 | Splash Screen | Home | Quiz | Result |
