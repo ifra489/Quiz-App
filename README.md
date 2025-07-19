@@ -47,7 +47,7 @@ This is a simple Android *Quiz App with a splash screen and a 10-second countdow
 3. Wait for Gradle to sync
 4. Click *Run ▶️* to launch the app
 
-## 🙋 Developed By
+## 🙋‍♀️ Developed By
 
 Ifra Malik  
 Intern @ Digital Empowerment Network  
