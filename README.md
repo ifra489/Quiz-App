@@ -37,10 +37,13 @@ This is a simple Android *Quiz App with a splash screen and a 10-second countdow
 
 <h2>📸 Screenshots</h2>
 
-<img src="screenshots/splash.jpeg" height="250"/>  
-<img src="screenshots/home.jpeg" height="250"/>  
-<img src="screenshots/quiz.jpeg" height="250"/>  
-<img src="screenshots/result.jpeg" height="250"/>
+<p align="center">
+  <img src="screenshots/splash.jpeg" height="250"/>
+  <img src="screenshots/home.jpeg" height="250"/>
+  <img src="screenshots/quiz.jpeg" height="250"/>
+  <img src="screenshots/result.jpeg" height="250"/>
+</p>
+
 
 
 ## ▶️ How to Run the App
