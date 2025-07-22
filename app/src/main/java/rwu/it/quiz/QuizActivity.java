@@ -15,7 +15,7 @@ import java.util.List;
 
 public class QuizActivity extends AppCompatActivity {
 
-    TextView questionText, timerText; // Displays question and timer
+    TextView questionTitle, timerText,questionText; // Displays question and timer
     Button[] optionButtons = new Button[4]; // Array to hold 4 option buttons
     List<Question> questionList = new ArrayList<>(); // List of questions
     int currentQuestionIndex = 0; // Tracks current question number
@@ -28,6 +28,7 @@ public class QuizActivity extends AppCompatActivity {
         setContentView(R.layout.activity_quiz);
 
         // Link UI elements with IDs
+        questionTitle = findViewById(R.id.questionTitle);
         questionText = findViewById(R.id.questionText);
         timerText = findViewById(R.id.timerText);
 
@@ -71,6 +72,8 @@ public class QuizActivity extends AppCompatActivity {
 
     // Show the next question on the screen
     private void showNextQuestion() {
+        String questionNumText=getString(R.string.question_number,currentQuestionIndex +1);
+        questionTitle.setText(questionNumText);
         // If all questions are answered, go to ResultActivity
         if (currentQuestionIndex >= questionList.size()) {
             Intent intent = new Intent(QuizActivity.this, ResultActivity.class);
@@ -79,9 +82,10 @@ public class QuizActivity extends AppCompatActivity {
             finish();
             return;
         }
-
+        
         // Get current question
         Question currentQuestion = questionList.get(currentQuestionIndex);
+
         questionText.setText(currentQuestion.questionText);
 
         // Set text for option buttons and add click listeners

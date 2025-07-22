@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Smart Quiz"
-        android:textColor="@color/Puple"
+        android:textColor="@color/Purple"
         android:textSize="30sp"
         android:textStyle="bold" />
 </LinearLayout>

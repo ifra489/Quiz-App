@@ -12,16 +12,17 @@
 
     <!-- Timer -->
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
+        android:id="@+id/questionTitle"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:fontFamily="sans-serif"
         android:gravity="center"
-        android:text="Quiz Time"
-        android:textColor="@color/Puple"
-        android:textSize="40dp"
+        android:textColor="@color/Purple"
+        android:textSize="40sp"
         android:textStyle="bold" />
+
+
 
     <TextView
         android:id="@+id/timerText"

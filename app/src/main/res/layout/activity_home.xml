@@ -25,7 +25,7 @@ android:layout_marginTop="0dp"
         android:fontFamily="sans-serif"
         android:text="Welcome to Smart Quiz "
 
-        android:textColor="@color/Puple"
+        android:textColor="@color/Purple"
         android:textSize="26sp"
         android:textStyle="bold"
         tools:ignore="HardcodedText" />
