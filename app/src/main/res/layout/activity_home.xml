@@ -10,6 +10,7 @@
     android:padding="24dp">
 
     <ImageView
+        android:contentDescription="@string/your_description"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_gravity="center"
@@ -37,7 +38,8 @@ android:layout_marginTop="0dp"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/plum"
-        android:text="Start Quiz"
+
+        android:text="@string/start_quiz"
         android:textColor="@color/white"
         app:cornerRadius="20dp" />
 
