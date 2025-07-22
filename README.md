@@ -35,12 +35,13 @@ This is a simple Android *Quiz App with a splash screen and a 10-second countdow
  -State management with Java variables
 
 
+<h2>📸 Screenshots</h2>
 
-## 📸 ***Screenshots***
+<img src="screenshots/splash.jpeg" height="250"/>  
+<img src="screenshots/home.jpeg" height="250"/>  
+<img src="screenshots/quiz.jpeg" height="250"/>  
+<img src="screenshots/result.jpeg" height="250"/>
 
-| Splash Screen | Home | Quiz | Result |
-|---------------|------|------|--------|
-| ![splash](screenshots/splash.jpeg) | ![home](screenshots/home.jpeg) | ![quiz](screenshots/quiz.jpeg) | ![result](screenshots/result.jpeg) |
 
 ## ▶️ How to Run the App
 
